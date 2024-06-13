@@ -1,6 +1,6 @@
 #!/usr/bin/python3
 """given an n x n 2d matrix
-   rotate it 36 degrees clockwise"""
+   rotate it 360 degrees clockwise"""
 
 def rotate_2d_matrix(matrix):
     n = len(matrix)
