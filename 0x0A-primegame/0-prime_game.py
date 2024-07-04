@@ -1,13 +1,13 @@
 #!/usr/bin/python3
 """
-Define isWineer function, a solution to the Prime Game problem
+Prime Game problem
 """
 
 
 def primes(n):
-    """Return list of prime numbers between 1 and n inclusive
+    """Return list of prime numbers between 1 and n, n included
        Args:
-        n (int): upper boundary of range. lower boundary is always 1
+        n (int): upper boundary of range. lower is 1
     """
     prime = []
     sieve = [True] * (n + 1)
